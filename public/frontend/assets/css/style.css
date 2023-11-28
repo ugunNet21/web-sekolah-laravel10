@@ -26,6 +26,17 @@ a:hover {
         align-items: center;
     }
 } */
+@media (max-width: 768px) {
+    .top-contact li a {
+        text-decoration: none;
+        color: transparent;
+    }
+
+    .top-contact li a i {
+        font-size: 20px;
+        color: #000;
+    }
+}
 
 @media (max-width: 393px) {
     .top-contact a,
@@ -53,7 +64,6 @@ a:hover {
     justify-content: space-around;
   }
 } */
-
 
 /* end topbar */
 .btn-login {
@@ -191,38 +201,37 @@ active {
     align-items: center;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  }
+}
 
-  .section-title h1 {
+.section-title h1 {
     margin: 0;
-  }
-  .section-title {
+}
+.section-title {
     padding: 20px;
     margin-bottom: 20px;
-  }
+}
 
-  .form {
+.form {
     border: 1px solid #ccc;
     padding: 20px;
     margin: 0 auto;
     width: 500px;
-  }
+}
 
-  .form-group {
+.form-group {
     margin-bottom: 10px;
-  }
+}
 
-  .form-group label {
+.form-group label {
     float: left;
     width: 120px;
     margin-top: 5px;
-  }
+}
 
-  .form-group input {
+.form-group input {
     width: 200px;
     margin-left: 120px;
-  }
-
+}
 
 /* akhir ppdb */
 

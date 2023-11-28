@@ -1,0 +1,22 @@
+PS D:\Web\bahan web school laravel\web-sekolah-lv10> php artisan make:controller Admin\\DashboardController
+
+   INFO  Controller [D:\Web\bahan web school laravel\web-sekolah-lv10\app/Http/Controllers/Admin//DashboardController.php] created successfully.
+
+PS D:\Web\bahan web school laravel\web-sekolah-lv10> php artisan make:controller HomeController
+
+   INFO  Controller [D:\Web\bahan web school laravel\web-sekolah-lv10\app/Http/Controllers/HomeController.php] created successfully.
+
+PS D:\Web\bahan web school laravel\web-sekolah-lv10>
+PS D:\Web\bahan web school laravel\web-sekolah-lv10> php artisan make:migration create_artikels_table --create=artikels
+
+   INFO  Migration [D:\Web\bahan web school laravel\web-sekolah-lv10\database\migrations/2023_10_16_110035_create_artikels_table.php] created successfully.
+
+PS D:\Web\bahan web school laravel\web-sekolah-lv10> php artisan make:migration create_galleries_table --create=galleries
+
+   INFO  Migration [D:\Web\bahan web school laravel\web-sekolah-lv10\database\migrations/2023_10_16_112345_create_galleries_table.php] created successfully.
+
+PS D:\Web\bahan web school laravel\web-sekolah-lv10> php artisan make:migration add_roles_field_to_users_table --table=users
+
+   INFO  Migration [D:\Web\bahan web school laravel\web-sekolah-lv10\database\migrations/2023_10_16_112815_add_roles_field_to_users_table.php] created successfully.
+
+PS D:\Web\bahan web school laravel\web-sekolah-lv10>
